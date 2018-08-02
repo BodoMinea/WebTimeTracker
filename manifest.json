@@ -1,0 +1,24 @@
+{
+  "name": "WebTimeTracker",
+  "version": "1.0",
+  "description": "Contorizează timpul petrecut și numărul de accesări pentru paginile de pe un anumit domeniu.",
+  "background": {
+    "scripts": ["background.js"]
+  },
+  "page_action" :
+  {
+    "default_icon" : "icon-19.png",
+    "default_title" : "WebTimeTracker",
+    "default_popup" : "popup.html"
+  },
+  "permissions" : [
+    "declarativeContent",
+    "tabs",
+    "storage"
+  ],
+  "icons" : {
+    "48" : "icon-48.png",
+    "128" : "icon-128.png"
+  },
+  "manifest_version": 3
+}
